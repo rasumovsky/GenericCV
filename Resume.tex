@@ -22,6 +22,10 @@
 \usepackage{newcent}
 \usepackage{tikz}
 
+\usepackage{lmodern}
+\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
+\usepackage[T1]{fontenc}
+
 % Set the paper size and margin size (use a4paper, not legalpaper):
 \geometry{a4paper, portrait, margin=0.5in}
 \begin{document} 
@@ -51,7 +55,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title section
 
-\begin{tabular}{p{0.45\textwidth}p{0.55\textwidth}}
+\begin{tabular}{p{0.55\textwidth}p{0.45\textwidth}}
   \hfill \newline \href{https://ch.linkedin.com/in/andrew-hard-25b690a5}{\Huge{\color{Maroon}{Andrew Hard}}} \newline \LARGE{\textit{R\'{e}sum\'{e}}} \newline
   &
   \hfill \newline 1 Hill St., Apt. 402, San Francisco, CA 94110 \newline
@@ -61,31 +65,32 @@
 \end{tabular}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Education section
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Skills section
 
 \begin{flushleft}
-  \Large{\textsc{\textbf{\color{Maroon}{Education}}}}
+  \Large{\textsc{\textbf{\color{Maroon}{Skills}}}}
   \vspace{1pt}  % space between text and line
-  \hrule
+  %\hrule
 \end{flushleft}
 
-  %%%%%%%%%% PhD at UW
-  \begin{tabular}{p{0.15\textwidth}p{0.8\textwidth}}
-  2016
+\begin{tabular}{p{0.15\textwidth}p{0.8\textwidth}}
+
+  %%%%%%%%%% Scientific
+  {\bf Scientific} 
   &
-  \textbf{Doctor of Philosophy} in Physics \newline 
-  \textit{University of Wisconsin}, Madison WI, USA \newline
-  Thesis: \textit{Search and discovery with the resonant $\gamma\gamma$ final state at ATLAS} \newline
-  Advised by Prof. Sau Lan Wu \\
+  Physics, Machine Learning, Statistics, Simulations, Numerical Methods, Data Structures, High-Throughput Computing, Databases, Public Presentation \newline
   \\
 
-  %%%%%%%%%% BA at UoC
-  2010 
-  & 
-  \textbf{Bachelor of Arts} in Physics, Honors \newline 
-  \textit{University of Chicago}, Chicago IL, USA \newline
-  Advised by Prof. Edward Blucher 
-%\\
+  %%%%%%%%%% Programming
+  {\bf Programming} 
+  &
+  C++, Python, TensorFlow, Java, Go, \LaTeX{}, Unix/Linux shell scripting, ROOT, Matlab, SQL \newline
+  \\ 
+
+  %%%%%%%%%% Languages
+  {\bf Languages}
+  &
+  English (native), French (basic oral and written communication), German (A1.3)
 \end{tabular}
 
 
@@ -94,7 +99,7 @@
 \begin{flushleft}
   \Large{\textsc{\textbf{\color{Maroon}{Experience}}}}
   \vspace{1pt} % space between text and line
-  \hrule
+  %\hrule
 \end{flushleft}
 
 %\renewcommand{\arraystretch}{0.5}% Wider
@@ -187,32 +192,32 @@
 \end{tabular}
 \vspace{-10pt}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Skills section
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Education section
 
 \begin{flushleft}
-  \Large{\textsc{\textbf{\color{Maroon}{Skills}}}}
+  \Large{\textsc{\textbf{\color{Maroon}{Education}}}}
   \vspace{1pt}  % space between text and line
-  \hrule
+  %\hrule
 \end{flushleft}
 
-\begin{tabular}{p{0.15\textwidth}p{0.8\textwidth}}
-
-  %%%%%%%%%% Scientific
-  {\bf Scientific} 
+  %%%%%%%%%% PhD at UW
+  \begin{tabular}{p{0.15\textwidth}p{0.8\textwidth}}
+  2016
   &
-  Physics, Statistics, Simulation, Numerical Methods, Data Structures, High Throughput Computing, Databases, Machine Learning, Public Presentation \newline
+  \textbf{Doctor of Philosophy} in Physics \newline 
+  \textit{University of Wisconsin}, Madison WI, USA \newline
+  Thesis: \textit{Search and discovery with the resonant $\gamma\gamma$ final state at ATLAS} \newline
+  Advised by Prof. Sau Lan Wu \\
   \\
 
-  %%%%%%%%%% Programming
-  {\bf Programming} 
-  &
-  C++, Python, TensorFlow, Java, Go, \LaTeX{}, Unix/Linux shell scripting, ROOT, Matlab, SQL \newline
-  \\ 
-
-  %%%%%%%%%% Languages
-  {\bf Languages}
-  &
-  English (native), French (basic oral and written communication), German (A1.3)
+  %%%%%%%%%% BA at UoC
+  2010 
+  & 
+  \textbf{Bachelor of Arts} in Physics, Honors \newline 
+  \textit{University of Chicago}, Chicago IL, USA \newline
+  Advised by Prof. Edward Blucher 
+%\\
 \end{tabular}
 
 
@@ -221,7 +226,7 @@
 \begin{flushleft}
   \Large{\textsc{\textbf{\color{Maroon}{Volunteering \& Outreach}}}}
   \vspace{1pt}  % space between text and line
-  \hrule
+  %\hrule
 \end{flushleft}
 \vspace{-10pt}  % suppress blank line after tabbing
 
@@ -248,7 +253,7 @@
 \begin{flushleft}
   \Large{\textsc{\textbf{\color{Maroon}{Awards}}}}
   \vspace{1pt} % space between text and line
-  \hrule
+  %\hrule
 \end{flushleft}
 
 \begin{tabular}{p{0.15\textwidth}p{0.8\textwidth}}
